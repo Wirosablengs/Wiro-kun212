@@ -1,0 +1,546 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    margin: 0;
+    font-family: Gabriola;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .clear {
+    clear: left;
+  }
+  
+  .container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  .top-wrapper {
+    padding: 300px 0 300px 0;
+    background-image: url(https://i.ibb.co/M5wSJ24/Coffee2.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+  
+  .top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+  }
+  
+  span {
+    border-bottom: 2px solid #5f5d60;
+  }
+  
+  header {
+    height: 95px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .logo {
+    width: 100px;
+    margin-top: 0px;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: -100px;
+    font-family: "Gabriola";
+    font-size: 28px;
+
+  }
+  
+  .header-right a {
+    line-height: 95px;
+    padding: 0 25px;
+    color: rgb(32, 33, 34);
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-right a:hover {
+    background-color: rgb(223, 222, 222);
+    opacity: 1;
+  }
+  
+
+  .menu-icon{
+    color: rgb(95, 93, 96);
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+  }
+  
+  .lesson-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #ffffff;
+    text-align: center;
+  }
+
+  .heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+  
+  .lesson {
+    float: left;
+    width: 25%;
+  }
+  
+  .lesson-icon {
+    position: relative;
+  }
+  
+  .lesson-icon img:hover {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+    
+  }
+
+  .lesson-icon img {
+    cursor: pointer;
+  }
+
+  .lesson-icon p {
+    position: absolute;
+    top: 83%;
+    width: 100%;
+    color: rgb(8, 8, 8);
+    font-size: 24px;
+    font-weight: bold
+  }
+  
+  .text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 18px;
+    color: #b3aeb5;
+  }
+  
+  .heading h3 {
+    font-weight: normal;
+  }  
+
+  .history-wrapper {
+    background-image: url(https://d2aj9sy12tbpym.cloudfront.net/progate/shared/images/slide/es6/study/2/1527068095762.png);
+    background-size: cover;
+    color: white;
+    text-align: left;
+    padding-bottom: 200px;
+
+  }
+
+  .history-wrapper h1{
+    padding-top: 45px;
+
+  }
+
+  .history-wrapper p{
+    color:rgba(255, 255, 255, 0.8);
+    font-size: 15px;
+  }
+
+ 
+  .person-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #ffffff;
+    text-align: center;
+  }
+
+  .person {
+    float: left;
+    width: 25%;
+  }
+  
+  .person-icon {
+    position: relative;
+  }
+  
+  .person-icon img:hover {
+    position: relative;
+    top: 25px;
+    right: 15px;
+    box-shadow: none;
+    
+  }
+
+  .person-icon img {
+    cursor: pointer;
+  }
+
+  .person-icon p {
+    position: absolute;
+    top: 175px;
+    width: 100%;
+    color: rgb(8, 8, 8);
+    font-size: 24px;
+    font-weight: bold
+  }
+
+  .person-icon2 {
+    position: relative;
+  }
+  
+  .person-icon2 img:hover {
+    position: relative;
+    top: 25px;
+    right: 15px;
+    box-shadow: none;
+    
+  }
+
+  .person-icon2 img {
+    cursor: pointer;
+    width: 150px;
+    height: 144px;
+  }
+
+  .person-icon2 p {
+    position: absolute;
+    top: 175px;
+    width: 100%;
+    color: rgb(8, 8, 8);
+    font-size: 24px;
+    font-weight: bold
+  }
+
+  .person-icon4 {
+    position: relative;
+  }
+  
+  .person-icon4 img:hover {
+    position: relative;
+    top: 25px;
+    right: 15px;
+    box-shadow: none;
+    
+  }
+
+  .person-icon4 img {
+    cursor: pointer;
+  }
+
+  .person-icon4 p {
+    position: absolute;
+    top: 175px;
+    width: 100%;
+    color: rgb(8, 8, 8);
+    font-size: 24px;
+    font-weight: bold
+  }
+
+  .text-contents1 {
+    width: 80%;
+    display: inline-block;
+    margin-top: 35px;
+    font-size: 18px;
+    color: #4e4552;
+  }
+
+  .text-contents2 {
+    width: 80%;
+    display: inline-block;
+    margin-top: 120px;
+    font-size: 18px;
+    color: #4e4552;
+  }
+
+  .text-contents3 {
+    width: 80%;
+    display: inline-block;
+    margin-top: 75px;
+    font-size: 18px;
+    color: #4e4552;
+  }
+
+  .text-contents4 {
+    width: 80%;
+    display: inline-block;
+    margin-top: 55px;
+    font-size: 18px;
+    color: #4e4552;
+  }
+
+  .message-wrapper {
+    border-bottom: 3px solid rgb(153, 149, 149);
+    padding-bottom: 25px;
+    margin-top: -100px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .message-wrapper h3 {
+    font-size: 36px;
+  }
+
+  .btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  
+  .signup {
+    background-color: #239b76;
+    margin-right: 25px;
+    opacity: 0;
+    
+  }
+  
+  .facebook {
+    background-color: #3b5998;
+    margin-right: 25px;
+  }
+  
+  .twitter {
+    background-color: rgb(193,53,132);
+  }
+  
+  .btn {
+    padding: 12px 36px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 26px;
+    width: 30%;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .fa {
+    margin-right: 20px;
+  }
+
+  footer img {
+    width: 125px;
+    float: center;
+  }
+  
+  footer {
+    background-color: rgb(255, 255, 255);
+    max-height: 150px;
+  }
+
+  footer p {
+    color: #b3aeb5;
+    font-size: 18px;
+    margin-top: -10px;
+    background-color: rgb(255, 255, 255);
+
+  }
+  
+  footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  .text-contents5 {
+    color: #b3aeb5;
+    font-size: 12px;
+    font-family: "Lucida COnsole";
+    margin-top: 100px;
+  }
+
+/* for animation */
+
+  .person-wrapper h1{
+    animation-name: example;
+    animation-duration: 5s;
+  }
+
+  @keyframes example {
+    0% {opacity: 0.0;}
+    20% {opacity: 0.2;}  
+    40% {opacity: 0.4;}  
+    60% {opacity: 0.6;} 
+    80% {opacity: 0.8;}
+    100% {opacity: 1;}
+  }
+
+  .message-wrapper h2{
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+
+  .message-wrapper h2{
+    animation: animated-text 2s steps(25,end) 1s 1 normal both;
+  }
+
+  @keyframes animated-text{
+    from{width: 0;}
+    to{width: 250px;}
+  }
+
+  .message-wrapper h3{
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+
+  .message-wrapper h3{
+    animation: animated-text2 2s steps(25,end) 1s 1 normal both;
+    animation-delay: 4s;
+  }
+
+  @keyframes animated-text2{
+    from{width: 0;}
+    to{width: 350px;}
+  }
+   
+
+  /* For Tablets */
+
+  @media all and (max-width: 1000px) {
+    .top-wrapper h1 {
+      font-size: 32px;
+      width: 100%;
+      text-align: left;
+    }
+    
+    .header-right {
+      display: none;
+    }
+
+    .menu-icon {
+      display: block;
+    }
+
+    .heading h2 {
+      font-size: 20px;
+    }
+    
+    .lesson {
+      width: 50%;
+      margin-bottom: 50px;
+    }
+
+    .history-wrapper p {
+      color: rgba(0, 0, 0, 1);
+    }
+
+    .person {
+      width: 50%;
+      margin-bottom: 50px;
+    }
+
+    .person-icon4 {
+      margin-top: -325px;
+    }
+
+    .person-icon4 p {
+      position: absolute;
+      top: 165px;
+      width: 100%;
+      color: rgb(8, 8, 8);
+      font-size: 24px;
+      font-weight: bold 
+    }
+
+    .text-contents4 {
+      width: 80%;
+      display: inline-block;
+      margin-top: 45px;
+      font-size: 18px;
+      color: #4e4552;
+    }
+
+    .btn {
+      width: 100%;
+      margin-bottom: 25px;
+    }
+  }
+  
+  /* For Smartphones */
+@media all and (max-width: 670px) {
+  
+  .header-right {
+    display: none;
+  }
+  
+  .menu-icon {
+      display: block;
+  }
+  .top-wrapper h1 {
+    font-size: 36px;
+    line-height: 36px;
+  }
+  
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .person {
+    width: 100%;
+  }
+
+  .person-icon4 {
+    width: 100%;
+    margin-top: 0px;
+  }
+  
+  .btn {
+    width: 100%;
+    text-align: left;
+    font-size: 24px;
+  }
+
+  .facebook {
+    margin-bottom: 10px;
+    margin-top: -15px;
+  }
+  
+  .lesson {
+    width: 100%;
+  }
+  
+  footer {
+    text-align: center;
+  }
+
+  @keyframes animated-text2{
+    from{width: 0;}
+    to{width: 290px;}
+  }
+}
+
+ 
